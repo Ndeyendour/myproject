@@ -1,0 +1,44 @@
+{
+  "fr": {
+    "header": {
+      "address": "Sicap Baobab villa 901 R.C.",
+      "working_hours": "Lundi - Vendredi 08:00-16:00",
+      "phone": "(+221) 78 797 89 62 – 78 797 89 63",
+      "home": "Accueil",
+      "projects": "Projets realises",
+      "services": "Domaines d'expertise",
+      "advantages": "Nos Avantages",
+      "client_feedback": "Retour client",
+      "about": "À propos",
+      "biography": "Biographie",
+      "values": "Nos valeurs",
+      "team": "Notre équipe",
+      "architecture": "Architecture et Génie civil",
+      "earthworks": "Travaux de terrassement et de nivellement",
+      "building_construction": "Construction de bâtiments",
+      "portfolio": "Portfolio",
+      "contacts": "Contacts"
+    }
+  },
+  "en": {
+    "header": {
+      "address": "Sicap Baobab villa 901 R.C.",
+      "working_hours": "Monday - Friday 08:00-16:00",
+      "phone": "(+221) 78 797 89 62 – 78 797 89 63",
+      "home": "Home",
+      "projects": "Completed Projects",
+      "services": "Areas of Expertise",
+      "advantages": "Our Advantages",
+      "client_feedback": "Client Feedback",
+      "about": "About",
+      "biography": "Biography",
+      "values": "Our Values",
+      "team": "Our Team",
+      "architecture": "Architecture and Civil Engineering",
+      "earthworks": "Earthworks and Grading",
+      "building_construction": "Building Construction",
+      "portfolio": "Portfolio",
+      "contacts": "Contacts"
+    }
+  }
+}

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--W4N74L4-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moxx.co.ke">
+    <meta name="keywords" content="moxx.co.ke, Moxx Construction, MoxxKe, Moxx, Moxx Kenya, Bernard Mosiere, Construction companies in Kenya, Brian Wanjala, Construction projects in Kenya, Real Estate">
+    <meta name="author" content="Moxx">
+
+
+    <!-- CSS Files
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="demo/demo.css" type="text/css">
+    <link rel="icon" type="image/png/icon" href="images/favicon.png" alt="Moxx Icon">
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- color scheme -->
+    <link rel="stylesheet" href="css/color.css" type="text/css" id="colors">
+    <style>
+        .tp-caption.cta-container {
+            position: absolute;
+            left: 0;
+            bottom: 100px;
+            transform: translateX(0);
+        }
+
+        .cta-form {
+            display: flex; /* Utilise le flexbox pour aligner les éléments horizontalement */
+            flex-direction: row; /* Aligne les éléments en ligne */
+            align-items: center; /* Aligne les éléments verticalement au centre */
+        }
+
+        .cta-input {
+            width: 400px;
+            color: #000;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-right: 10px; /* Ajoute un espace entre le champ de saisie et le bouton */
+            flex-grow: 1; /* Permet à l'input de prendre tout l'espace disponible */
+        }
+
+        .btn-slider {
+            padding: 10px 20px;
+            background-color: #00ff73;
+            color: black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .btn-slider:hover {
+            background-color: #00ff73;
+
+
+        }
+        
+        dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .btn-selector {
+            display: block;
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        .btn-selector img {
+            width: 20px;
+            height: 15px;
+            vertical-align: middle;
+        }
+
+        .dropdown-content {
+            display: none; /* Cacher la liste déroulante par défaut */
+            position: absolute;
+            background-color: #00ff73;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            margin-top: 5px;
+            padding: 0;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .dropdown-content a img {
+            margin-right: 10px;
+            width: 20px;
+            height: 15px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #00ff73;
+        }
+
+
+    </style>
+</head>
+
+<body id="homepage">
+
+    <div id="wrapper">
+
+        <!-- header begin -->
+        <header>
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="col">
+                                <span class="id-color"><i class="fa fa-map-marker"></i></span>Sicap Baobab villa 901 R.C.
+                            </div>
+                            <div class="col">
+                                <span class="id-color"><i class="fa fa-clock-o"></i></span>Lundi - Vendredi 08:00-16:00
+                            </div>
+                            <div class="col">
+                                <span class="id-color"><i class="fa fa-phone"></i></span>
+                                <a id="link" href="tel:+221787978962" style="color: #ffffff;">(+221) 78 797 89 62 – 78 797 89 63</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <div class="col">
+                                <div id="lang-selector" class="dropdown">
+                                    <a href="#" class="btn-selector" onclick="toggleDropdown(event)">
+                                        <img src="images/en.png" alt="Current Language" id="current-flag">
+                                    </a>
+                                    <div class="dropdown-content" id="dropdown-content">
+                                        <a href="#" onclick="changeFlag(event, 'images/fr.png', 'en')">
+                                            <img src="images/fr.png" alt="English"> Anglais
+                                        </a>
+                                        <a href="#" onclick="changeFlag(event, 'images/en.png', 'fr')">
+                                            <img src="images/en.png" alt="French"> Francais
+                                        </a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <a href="index.html">
+                                <img class="logo" src="images/logo.png" alt="moxx Construction">
+                                <img class="logo-2" src="images/logo-2.png" alt="moxx Construction">
+                            </a>
+                        </div>
+                        <!-- logo close -->
+        
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+        
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <ul id="mainmenu">
+                                <li><a href="index-onepage-1.html" data-translate="home">Accueil</a>
+                                    <ul>
+                                        <li><a href="projects.html" data-translate="projects">Projets realises</a></li>
+                                        <li><a href="services.html" data-translate="services">Domaines d'expertise</a></li>
+                                        <li><a href="index-12.html" data-translate="advantages">Nos Avantages</a></li>
+                                        <li><a href="index-12.html" data-translate="client-feedback">Retour client</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html" data-translate="about">À propos</a>
+                                    <ul>
+                                        <li><a href="about.html" data-translate="biography">Biographie</a></li>
+                                        <li><a href="about-history.html" data-translate="values">Nos valeurs</a></li>
+                                        <li><a href="about-team.html" data-translate="team">Notre équipe</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="services.html" data-translate="services">Services</a>
+                                    <ul>
+                                        <li><a href="service-1.html" data-translate="civil-engineering">Architecture et Génie civil</a></li>
+                                        <li><a href="service-2.html" data-translate="earthworks">Travaux de terrassement et de nivellement</a></li>
+                                        <li><a href="service-3.html" data-translate="building-construction">Construction de bâtiments</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="projects.html" data-translate="portfolio">Portfolio</a></li>
+                                <li><a href="contact.html" data-translate="contact">Contacts</a></li>
+                            </ul>
+                        </nav>
+                        <!-- mainmenu close -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- subheader -->
+        <section id="subheader" data-stellar-background-ratio=".3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 data-translate="Contactez-nous">Contactez-nous</h1>
+                        <div class="small-border-deco"><span></span></div>
+                        <ul class="crumb">
+                            <li><a href="index.html" data-translate="Accueil">Accueil</a></li>
+                            <li class="sep"></li>
+                            <li data-translate="Contacts">Contacts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subheader close -->
+
+        <!-- content begin -->
+        <div id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="de_tab tab_style_2">
+                            <ul class="de_nav">
+                                <li class="active" data-translate="Sicap Baobab"><span>Sicap Baobab</span>
+                                    <div class="v-border"></div>
+                                </li>
+                                <!-- Commented out options -->
+                                <!-- <li><span>London</span>
+                                    <div class="v-border"></div>
+                                </li>
+                                <li><span>Sydney</span>
+                                    <div class="v-border"></div>
+                                </li>
+                                <li><span>Paris</span>
+                                    <div class="v-border"></div>
+                                </li> -->
+                            </ul>
+    
+                            <div class="de_tab_content tc_style-1">
+                                <div id="tab1">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="map-container">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7718.15942708239!2d-17.463427!3d14.708084000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec172bdb73c5091%3A0x215ba9f0b3924550!2sSICAP%20Baobab%2C%20Dakar!5e0!3m2!1sfr!2ssn!4v1721301670992!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <address class="address-style-2">
+                                                <span data-translate="Adresse:"><strong>Adresse:</strong>Sicap Baobab villa 901 R.C</span>
+                                                <span data-translate="Telephone:"><strong>Téléphone:</strong>(+221) 78 797 89 62 – 78 797 89 63</span>
+                                                <span data-translate="Email:"><strong>Email:</strong><a href="mailto:secretrariat.cbb@cbbsarl.com">secretrariat.cbb@cbbsarl.com</a></span>
+                                                <span data-translate="Ouvert"><strong>Ouvert</strong>Lundi - Vendredi 08:00 - 16:00</span>
+                                            </address>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="padding30" data-bgcolor="#f5f5f5">
+                            <h3 data-translate="Envoyez-nous un message">
+                                Envoyez-nous un message
+                                <span class="tiny-border"></span>
+                            </h3>
+                            <form name="contactForm" id="contact_form" method="post" action="https://formspree.io/f/xyyledvw">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div id="name_error" class="error" data-translate="Entrer votre nom">Entrer votre nom</div>
+                                        <div>
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" data-translate-placeholder="Votre nom">
+                                        </div>
+                                        <div id="email_error" class="error" data-translate="Veuillez entrer votre adresse e-mail valide.">Veuillez entrer votre adresse e-mail valide.</div>
+                                        <div>
+                                            <input type="text" name="email" id="email" class="form-control" placeholder="Your Email" data-translate-placeholder="Votre Email">
+                                        </div>
+                                        <div id="phone_error" class="error" data-translate="Veuillez entrer votre numéro de téléphone.">Veuillez entrer votre numéro de téléphone.</div>
+                                        <div>
+                                            <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone" data-translate-placeholder="Votre numéro de téléphone">
+                                        </div>
+                                        <div id="message_error" class="error" data-translate="Veuillez entrer votre message.">Veuillez entrer votre message.</div>
+                                        <div>
+                                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" data-translate-placeholder="Votre Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div id="submit">
+                                            <button type="submit" data-translate="Envoyer">Envoyer</button>
+                                        </div>
+                                        <div id="mail_success" class="success" data-translate="Votre message a été envoyé avec succès.">Votre message a été envoyé avec succès.</div>
+                                        <div id="mail_fail" class="error" data-translate="Désolé, une erreur est survenue lors de l'envoi de votre message.">Désolé, une erreur est survenue lors de l'envoi de votre message.</div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer begin -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="images/logo.png" class="logo-small" alt="" data-translate="logo-alt">
+                    </div>
+        
+                    <div class="col-md-3">
+                        <h3 data-translate="contact-us">Contactez-nous</h3>
+                        <address>
+                            <span data-translate="address">Sicap Baobab villa 901 R.C.</span>
+                            <span><strong data-translate="ninea">NINEA:</strong> N° SN. DKR. 2024.B.4658 NINEA (Sénégal)</span>
+                            <span><strong data-translate="phone">Téléphone:</strong> <a href="tel:+221787978962" data-translate="phone-number">(+221) 78 797 89 62 – 78 797 89 63</a></span>
+                            <span><strong data-translate="email">Email:</strong> <a href="mailto:secretrariat.cbb@cbbsarl.com" data-translate="email-address">secretrariat.cbb@cbbsarl.com</a></span>
+                        </address>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <h3 data-translate="quick-links">Liens Rapides</h3>
+                        <ul class="list-1">
+                            <li><a href="#" data-translate="home">Accueil</a></li>
+                            <li><a href="#" data-translate="about">À Propos</a></li>
+                            <li><a href="#" data-translate="portfolio">Portfolio</a></li>
+                            <li><a href="#" data-translate="services">Services</a></li>
+                            <li><a href="#" data-translate="contact">Contact</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="col-md-3">
+                        <h3 data-translate="follow-us">Suivez-nous</h3>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/moxx.co.ke" data-translate="facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.twitter.com/MoxxKe" data-translate="twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/MoxxConstruction" data-translate="instagram"><i class="fa fa-instagram"></i></a>
+                            <a href="https://wa.me/+221787978962" data-translate="whatsapp"><i class="fa fa-whatsapp"></i></a>
+                            <!-- <a href="https://www.youtube.com/channel/UCX-cDMbyQF68Ohkx14m7eSw" data-translate="youtube"><i class="fa fa-youtube"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+
+        <a href="#" id="back-to-top"></a>
+    </div>
+
+    <!-- style switcher
+    ================================================== -->
+
+
+    <div id="switcher">
+        <span class="custom-close"></span>
+        <span class="custom-show"></span>
+
+        <span class="sw-title">Header Style</span>
+        <select name="switcher" id="de-header-style">
+            <option value="opt-1">Solid</option>
+            <option value="opt-2" selected>Transparent</option>
+        </select>
+
+        <div class="clearfix"></div>
+
+        <span class="sw-title">Header Layout</span>
+        <select name="switcher" id="de-header-layout">
+            <option value="opt-1">Simple</option>
+            <option value="opt-2" selected>Extended</option>
+        </select>
+
+        <div class="clearfix"></div>
+
+        <span class="sw-title">Menu Style</span>
+        <select name="switcher" id="de-menu">
+            <option value="opt-1">Dotted Separator</option>
+            <option value="opt-2">Line Separator</option>
+            <option value="opt-3">Circle Separator</option>
+            <option value="opt-4">Square Separator</option>
+            <option value="opt-5">Plus Separator</option>
+            <option value="opt-6">Strip Separator</option>
+            <option value="opt-0" selected>No Separator</option>
+        </select>
+
+        <div class="clearfix"></div>
+
+        <span class="sw-title">Color :</span>
+        <ul id="de-color">
+            <li class="bg1"></li>
+            <li class="bg2"></li>
+            <li class="bg3"></li>
+            <li class="bg4"></li>
+            <li class="bg5"></li>
+            <li class="bg6"></li>
+            <li class="bg7"></li>
+            <li class="bg8"></li>
+            <li class="bg9"></li>
+            <li class="bg10"></li>
+        </ul>
+    </div>
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jpreLoader.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/easing.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/enquire.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="demo/demo.js"></script>
+
+    <!-- RS5.0 Core JS Files -->
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min838f.js?rev=5.0"></script>
+    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min838f.js?rev=5.0"></script>
+
+    <!-- RS5.0 Extensions Files -->
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script>
+        function toggleDropdown(event) {
+            event.preventDefault();
+            document.getElementById('dropdown-content').classList.toggle('show');
+        }
+        
+        function changeFlag(event, imgPath, lang) {
+            event.preventDefault();
+            document.getElementById('current-flag').src = imgPath;
+            translatePage(lang);
+        }
+        
+        function translatePage(lang) {
+            var translations = {
+                "fr": {
+                    "home": "Accueil",
+                    "projects": "Projets realises",
+                    "services": "Services",
+                    "advantages": "Nos Avantages",
+                    "client-feedback": "Retour client",
+                    "about": "À propos",
+                    "biography": "Biographie",
+                    "values": "Nos valeurs",
+                    "team": "Notre équipe",
+                    "civil-engineering": "Architecture et Génie civil",
+                    "earthworks": "Travaux de terrassement et de nivellement",
+                    "building-construction": "Construction de bâtiments",
+                    "portfolio": "Portfolio",
+                    "contact": "Contacts",
+                    "logo-alt": "Logo de l'entreprise",
+            "contact-us": "Contactez-nous",
+            "address": "Sicap Baobab villa 901 R.C.",
+            "ninea": "NINEA:",
+            "phone": "Téléphone:",
+            "phone-number": "(+221) 78 797 89 62 – 78 797 89 63",
+            "email": "Email:",
+            "email-address": "secretrariat.cbb@cbbsarl.com",
+            "quick-links": "Liens Rapides",
+            "home": "Accueil",
+            "about": "À Propos",
+            "portfolio": "Portfolio",
+            "services": "Services",
+            "contact": "Contact",
+            "follow-us": "Suivez-nous",
+            'Contactez-nous': 'Contactez-nous',
+                'Accueil': 'Accueil',
+                'Contacts': 'Contacts',
+                    'Sicap Baobab': 'Sicap Baobab',
+                'Envoyez-nous un message': 'Envoyez-nous un message',
+                'Votre nom': 'Votre nom',
+                'Votre Email': 'Votre Email',
+                'Votre numéro de téléphone': 'Votre numéro de téléphone',
+                'Votre Message': 'Votre Message',
+                'Entrer votre nom': 'Entrer votre nom',
+                'Veuillez entrer votre adresse e-mail valide.': 'Veuillez entrer votre adresse e-mail valide.',
+                'Veuillez entrer votre numéro de téléphone.': 'Veuillez entrer votre numéro de téléphone.',
+                'Veuillez entrer votre message.': 'Veuillez entrer votre message.',
+                'Envoyer': 'Envoyer',
+                'Votre message a été envoyé avec succès.': 'Votre message a été envoyé avec succès.',
+                'Désolé, une erreur est survenue lors de l\'envoi de votre message.': 'Désolé, une erreur est survenue lors de l\'envoi de votre message.'
+
+
+
+                },
+                "en": {
+                    "home": "Home",
+                    "projects": "Projects",
+                    "services": "Services",
+                    "advantages": "Our Advantages",
+                    "client-feedback": "Client Feedback",
+                    "about": "About Us",
+                    "biography": "Biography",
+                    "values": "Our Values",
+                    "team": "Our Team",
+                    "civil-engineering": "Civil Engineering",
+                    "earthworks": "Earthworks",
+                    "building-construction": "Building Construction",
+                    "portfolio": "Portfolio",
+                    "contact": "Contact",
+                    "logo-alt": "Company Logo",
+            "contact-us": "Contact Us",
+            "address": "Sicap Baobab villa 901 R.C.",
+            "ninea": "NINEA:",
+            "phone": "Phone:",
+            "phone-number": "(+221) 78 797 89 62 – 78 797 89 63",
+            "email": "Email:",
+            "email-address": "secretrariat.cbb@cbbsarl.com",
+            "quick-links": "Quick Links",
+            "home": "Home",
+            "about": "About",
+            "portfolio": "Portfolio",
+            "services": "Services",
+            "contact": "Contact",
+            "follow-us": "Follow Us",
+            'Contactez-nous': 'Contact Us',
+                'Accueil': 'Home',
+                'Contacts': 'Contacts',
+                'Sicap Baobab': 'Sicap Baobab',
+                'Envoyez-nous un message': 'Send us a message',
+                'Votre nom': 'Your Name',
+                'Votre Email': 'Your Email',
+                'Votre numéro de téléphone': 'Your Phone',
+                'Votre Message': 'Your Message',
+                'Entrer votre nom': 'Enter your name',
+                'Veuillez entrer votre adresse e-mail valide.': 'Please enter your valid email address.',
+                'Veuillez entrer votre numéro de téléphone.': 'Please enter your phone number.',
+                'Veuillez entrer votre message.': 'Please enter your message.',
+                'Envoyer': 'Send',
+                'Votre message a été envoyé avec succès.': 'Your message has been sent successfully.',
+                'Désolé, une erreur est survenue lors de l\'envoi de votre message.': 'Sorry, an error occurred while sending your message.'
+          
+       
+                }
+            };
+        
+            document.querySelectorAll('[data-translate]').forEach(function(element) {
+                var key = element.getAttribute('data-translate');
+                element.textContent = translations[lang][key];
+            });
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.btn-selector')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                for (var i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+        
+            </script>
+
+</body>
+
+<!-- Mirrored from www.designesia.com/themes/buildpro/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Jan 2021 15:58:38 GMT -->
+
+</html>
